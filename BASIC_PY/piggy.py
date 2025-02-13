@@ -1,0 +1,6 @@
+one=int(input("Enter the number of one rupee coins : "))
+two=int(input("Enter the number of two rupee coins : "))
+five=int(input("Enter the number of five rupee coins : "))
+ten=int(input("Enter the number of ten rupee coins : "))
+amount=(1*one)+(2*two)+(5*five)+(10*ten)
+print(f"Total amount in the piggy bank  : {amount}")
